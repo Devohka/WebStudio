@@ -1,0 +1,323 @@
+body {
+  font-family: 'Roboto';
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2, h1, h3, h4 {
+  margin: 0;
+}
+
+
+/* хедер */
+
+.nav-item {
+  margin-right: 55px;
+}
+
+.contact-item {
+  margin-right: 50px;
+}
+
+header .container {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+   align-items: center;
+
+}
+
+.contact-list {
+  display: flex;
+  margin-right: 75px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right :  155px;
+}
+
+
+.navigation {
+  display: flex;
+
+  align-content: center;
+}
+
+
+.contact-link{
+  display: flex;
+font-weight: 500;
+font-size: 14px;
+line-height: 0.87;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+
+}
+
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+}
+
+.logo-color {
+
+color: #000000;
+margin-right: 95px;
+}
+
+.nav-page {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
+
+}
+
+/* Мейн */
+
+.hiro-title {
+
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.hiro-section {
+  /* background-color: #2f303a; */
+  background-image: url('/imeges/Img.png');
+  background-image: linear-gradient(to right, #2f303a);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero-button {
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+background-color: #2196F3;
+margin-top: 30px;
+border: none;
+padding: 10px 24px;
+
+
+color: #FFFFFF;
+
+}
+
+
+
+
+.benefits-item {
+  margin-right: 30px;
+  padding-top: 94px;
+}
+
+.benefits-list {
+  display: flex;
+}
+
+.benefits-title {
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 0.87;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.benefits-text {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+
+
+.work-item {
+  margin-left: 30px;
+}
+
+
+
+.work-list {
+  display: flex;
+}
+
+.work-title {
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 94px;
+padding-bottom: 50px;
+color: #212121;
+}
+
+
+
+
+
+.team-section {
+  background-color:  #F5F4FA;
+}
+
+.team-title1 {
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 0.82;
+text-align: center;
+
+
+color: #212121;
+padding-top: 95px;
+padding-bottom: 55px;
+}
+
+.team-list {
+  /* outline: solid green; */
+  display: flex;
+}
+
+.team-item {
+  width: 270px;
+  border: 1px solid grey;
+  background-color: white;
+  margin-right: 30px;
+ 
+}
+
+.team-title {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 0.84;
+
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.team-text {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0.84;
+
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.team-section {
+  padding-bottom: 95px;
+}
+
+
+
+
+/* Футер */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  /* border: 2px solid red; */
+}
+
+
+.footer-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 0.83;
+
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.footer-color {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+footer {
+  background-color: #2f303a;
+  padding-top: 10px;
+ padding-bottom: 20px;
+}
+
+.footer-adress {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-text {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
